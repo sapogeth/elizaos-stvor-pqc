@@ -26,4 +26,4 @@ See [packages/plugin-stvor-pqc/README.md](packages/plugin-stvor-pqc/README.md) f
 
 ## License
 
-MIT
+Apache-2.0

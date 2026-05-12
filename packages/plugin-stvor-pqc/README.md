@@ -60,4 +60,4 @@ All cryptography is handled by the `@stvor/web3` Rust/WASM core — no custom cr
 
 ## License
 
-MIT
+Apache-2.0

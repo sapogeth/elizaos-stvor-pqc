@@ -39,7 +39,7 @@
     "ml-kem",
     "pqc"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/sapogeth/elizaos-stvor-pqc"
@@ -49,5 +49,6 @@
     "url": "https://github.com/sapogeth/elizaos-stvor-pqc/issues"
   },
   "packageType": "plugin",
-  "platform": "node"
+  "platform": "node",
+  "npmPackage": "@stvor/plugin-stvor-pqc"
 }
