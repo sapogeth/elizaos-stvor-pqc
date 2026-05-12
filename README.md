@@ -11,7 +11,7 @@ Post-quantum E2EE plugin for [elizaOS](https://github.com/elizaos/eliza) v3, pow
 ## Quick start
 
 ```bash
-npm install @elizaos/plugin-stvor-pqc
+npm install plugin-stvor-pqc
 ```
 
 ```ts

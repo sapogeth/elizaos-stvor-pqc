@@ -5,7 +5,7 @@ Post-quantum end-to-end encryption for elizaOS agent-to-agent messaging, powered
 ## Installation
 
 ```bash
-npm install @elizaos/plugin-stvor-pqc
+npm install plugin-stvor-pqc
 ```
 
 ## Setup
@@ -13,7 +13,7 @@ npm install @elizaos/plugin-stvor-pqc
 Add the plugin to your agent's plugin array in `elizos.config.ts` (or equivalent):
 
 ```ts
-import { stvorPqcPlugin } from "@elizaos/plugin-stvor-pqc";
+import { stvorPqcPlugin } from "plugin-stvor-pqc";
 
 export default {
   plugins: [

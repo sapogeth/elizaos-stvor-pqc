@@ -1,5 +1,5 @@
 {
-  "name": "@elizaos/plugin-stvor-pqc",
+  "name": "plugin-stvor-pqc",
   "version": "0.1.0",
   "description": "Post-quantum E2EE for elizaOS agent-to-agent messaging via ML-KEM-768 + Double Ratchet",
   "type": "module",
@@ -47,5 +47,7 @@
   "homepage": "https://pqc.stvor.xyz",
   "bugs": {
     "url": "https://github.com/sapogeth/elizaos-stvor-pqc/issues"
-  }
+  },
+  "packageType": "plugin",
+  "platform": "node"
 }
