@@ -42,6 +42,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/elizaos/eliza"
+    "url": "https://github.com/sapogeth/elizaos-stvor-pqc"
+  },
+  "homepage": "https://pqc.stvor.xyz",
+  "bugs": {
+    "url": "https://github.com/sapogeth/elizaos-stvor-pqc/issues"
   }
 }
