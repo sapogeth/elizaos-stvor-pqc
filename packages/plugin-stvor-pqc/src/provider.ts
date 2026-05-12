@@ -34,7 +34,7 @@ export class StvorService extends Service {
 
   private ikPair!: WasmKeyPair;    // P-256 identity keypair
   private spkPair!: WasmKeyPair;   // P-256 signed pre-key
-  private kemPair!: PqcKeypair;    // ML-KEM-768 keypair
+  private kemPair!: PqcKeypair;    // ML-KEM-768 keypair (dk is a 64-byte seed; full key derived in WASM)
   private sessions = new Map<UUID, { session: WasmSession; establishedAt: number }>();
   private wasmReady = false;
 

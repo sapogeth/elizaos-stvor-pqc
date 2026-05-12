@@ -4,7 +4,12 @@ import type { UUID } from "@elizaos/core";
 export interface PqcKeypair {
   /** Encapsulation key (public) — 1184 bytes, base64url */
   ek: string;
-  /** Decapsulation key (private) — 64 bytes, base64url */
+  /**
+   * Decapsulation key seed — 64 bytes, base64url.
+   * The full 2400-byte ML-KEM-768 decapsulation key is derived from this
+   * seed inside the WASM core on each call to wasm_mlkem_decaps().
+   * The seed must be kept secret; never log or transmit it.
+   */
   dk: string;
 }
 
